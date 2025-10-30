@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+      <title>Gula Updates</title>
+        <link>https://github.com/rudoapps/mac-gula-releases/releases</link>
+        <description>Updates for Gula App</description>
+        <language>es</language>
+    </channel>
+</rss>
