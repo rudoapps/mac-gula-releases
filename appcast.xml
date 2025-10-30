@@ -6,6 +6,27 @@
         <description>Updates for Gula App</description>
         <language>es</language>
 <item>
+    <title>Gula 1.0.9</title>
+    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.9</link>
+    <description><![CDATA[
+        <h2>Gula 1.0.9</h2>
+        <p>Nueva versión disponible!</p>
+
+        <h3>Cambios:</h3>
+        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.9">notas de la versión</a> para más detalles.</p>
+    ]]></description>
+    <pubDate>Thu, 30 Oct 2025 15:24:14 +0000</pubDate>
+    <guid isPermaLink="false">gula-1.0.9</guid>
+    <sparkle:version>10</sparkle:version>
+    <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <enclosure
+        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.9/Gula-1.0.9.dmg"
+        length="4300333"
+        type="application/octet-stream"
+        sparkle:edSignature="AU9qes7YtwHECXbjhc68zWduRU5x4KcwS1t9gbPQn7tB+qu3CbZh1ObYUGGnWD7AgP2g5dR5R3cHIr6FdTEcAA==" />
+</item>
+<item>
     <title>Gula 1.0.8</title>
     <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.8</link>
     <description><![CDATA[
