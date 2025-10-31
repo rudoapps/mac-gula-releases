@@ -27,7 +27,8 @@
     <sparkle:version>15</sparkle:version>
     <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <sparkle:criticalUpdate />
+    <sparkle:criticalUpdate sparkle:version="14" />
+    <sparkle:minimumAutoupdateVersion>14</sparkle:minimumAutoupdateVersion>
     <enclosure
         url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.14/Gula-1.0.14.dmg"
         length="5926054"
