@@ -6,20 +6,28 @@
         <description>Updates for Gula App</description>
         <language>es</language>
 <item>
-    <title>Gula 1.0.14</title>
+    <title>Gula 1.0.14 - ⚠️ Actualización Crítica</title>
     <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.14</link>
     <description><![CDATA[
-        <h2>Gula 1.0.14</h2>
-        <p>Nueva versión disponible!</p>
+        <h2>⚠️ Gula 1.0.14 - ACTUALIZACIÓN CRÍTICA</h2>
+        <p><strong>Esta actualización es obligatoria y debe instalarse inmediatamente.</strong></p>
 
-        <h3>Cambios:</h3>
+        <h3>Importante:</h3>
+        <ul>
+            <li>🔒 Mejoras críticas de estabilidad</li>
+            <li>✅ Correcciones importantes</li>
+            <li>⚡ Actualización obligatoria para todos los usuarios</li>
+        </ul>
+
+        <p>La aplicación se actualizará automáticamente. No se puede posponer esta actualización.</p>
         <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.14">notas de la versión</a> para más detalles.</p>
     ]]></description>
     <pubDate>Fri, 31 Oct 2025 10:50:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.14</guid>
+    <guid isPermaLink="false">gula-1.0.14-critical</guid>
     <sparkle:version>15</sparkle:version>
     <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
     <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <sparkle:criticalUpdate />
     <enclosure
         url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.14/Gula-1.0.14.dmg"
         length="5926054"
