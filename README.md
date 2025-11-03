@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.16-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.17-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,13 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.16 (Actual) - 31 Oct 2025
+### 🎯 Versión 1.0.17 (Actual) - 3 Nov 2025
+- Mejoras generales de estabilidad
+- Correcciones de bugs
+- Optimizaciones de rendimiento
+- Tamaño: 5.6 MB
+
+### Versión 1.0.16 - 31 Oct 2025
 - Mejoras generales de estabilidad
 - Correcciones de bugs
 - Tamaño: 5.9 MB
@@ -154,6 +160,6 @@ Para reportar bugs o solicitar nuevas características:
 
 **Desarrollado por RudoApps**
 
-*Última actualización: 31 de Octubre de 2025*
+*Última actualización: 3 de Noviembre de 2025*
 
 </div>
