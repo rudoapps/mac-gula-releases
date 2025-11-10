@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.19-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.22-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,17 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.19 (Actual) - 3 Nov 2025
+### 🎯 Versión 1.0.22 (Actual) - 10 Nov 2025
+**Diseño Mejorado del Resumen de Proyecto**
+- 🎨 Rediseño sofisticado de la vista de resumen del proyecto
+- ✨ MetadataCard con fondos gradientes circulares y efectos hover dinámicos
+- ✨ ProjectInfoCard con estilo visual mejorado e iconos con gradiente
+- 💫 Animaciones interactivas basadas en spring para experiencia fluida
+- 🌈 Sombras dinámicas basadas en colores que se intensifican al pasar el cursor
+- 🎯 Bordes degradados que responden a las interacciones del usuario
+- Tamaño: 38 MB
+
+### Versión 1.0.19 - 3 Nov 2025
 - Mejoras generales de estabilidad
 - Correcciones de bugs
 - Optimizaciones de rendimiento
@@ -172,6 +182,6 @@ Para reportar bugs o solicitar nuevas características:
 
 **Desarrollado por RudoApps**
 
-*Última actualización: 3 de Noviembre de 2025*
+*Última actualización: 10 de Noviembre de 2025*
 
 </div>
