@@ -6,6 +6,43 @@
         <description>Updates for Gula App</description>
         <language>es</language>
 <item>
+    <title>Gula 1.0.22</title>
+    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.22</link>
+    <description><![CDATA[
+        <h2>🎨 Gula 1.0.22 - Diseño Mejorado del Resumen de Proyecto</h2>
+        <p>Esta versión incluye un rediseño sofisticado de la vista de resumen del proyecto con efectos visuales y animaciones mejoradas.</p>
+
+        <h3>✨ Nuevas Funcionalidades:</h3>
+        <ul>
+            <li>🎨 Rediseño sofisticado de la vista de resumen del proyecto</li>
+            <li>✨ MetadataCard con fondos gradientes circulares y efectos hover dinámicos</li>
+            <li>✨ ProjectInfoCard con estilo visual mejorado e iconos con gradiente</li>
+            <li>💫 Animaciones interactivas basadas en spring para experiencia fluida</li>
+            <li>🌈 Sombras dinámicas basadas en colores que se intensifican al pasar el cursor</li>
+            <li>🎯 Bordes degradados que responden a las interacciones del usuario</li>
+        </ul>
+
+        <h3>Firmada y Notarizada:</h3>
+        <ul>
+            <li>✅ Firmada con certificado Developer ID</li>
+            <li>✅ Notarizada por Apple</li>
+            <li>✅ Sin advertencias de seguridad</li>
+        </ul>
+
+        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.22">notas de la versión</a> para más detalles.</p>
+    ]]></description>
+    <pubDate>Sun, 10 Nov 2025 13:40:00 +0000</pubDate>
+    <guid isPermaLink="false">gula-1.0.22</guid>
+    <sparkle:version>25</sparkle:version>
+    <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <enclosure
+        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.22/Gula-1.0.22.dmg"
+        length="40199662"
+        type="application/octet-stream"
+        sparkle:edSignature="97X3BI35iOMxfKgUQczXFPiFA15WhBhBNm0Jn/uxo44dAK6KcLZuGa2KiEilHxLshAKprhg+HpWHfuT09FqjAg==" />
+</item>
+<item>
     <title>Gula 1.0.19</title>
     <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.19</link>
     <description><![CDATA[
