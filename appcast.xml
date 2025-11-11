@@ -6,6 +6,57 @@
         <description>Updates for Gula App</description>
         <language>es</language>
 <item>
+    <title>Gula 1.0.23</title>
+    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.23</link>
+    <description><![CDATA[
+        <h2>✨ Gula 1.0.23 - Git Analytics con Validación de Commits</h2>
+        <p>Esta versión incluye un sistema completo de análisis de Git con validación de formato de commits.</p>
+
+        <h3>✨ Nuevas Funcionalidades:</h3>
+        <ul>
+            <li>📊 Nueva card de información de Git en la pantalla de resumen</li>
+            <li>🔍 Validación de número de ramas (advertencia si >8)</li>
+            <li>🏷️ Validación de tags (advertencia si no hay tags)</li>
+            <li>✅ Análisis de formato de commits con soporte para:</li>
+            <ul>
+                <li>• Conventional Commits (feat:, fix:, docs:, etc.)</li>
+                <li>• Formato Imperativo (Add, Fix, Update, etc.)</li>
+                <li>• Formato JIRA/Ticket ([JIRA-123]:, [TICKET-456]:)</li>
+                <li>• Commits de merge (Merged)</li>
+            </ul>
+            <li>📋 Click para ver análisis detallado de commits</li>
+            <li>📈 Barra de progreso visual mostrando porcentaje de cumplimiento</li>
+            <li>🎨 Indicadores de estado con códigos de color</li>
+        </ul>
+
+        <h3>📊 Métricas de Código:</h3>
+        <ul>
+            <li>Análisis de los últimos 10 commits</li>
+            <li>Clasificación automática de formato válido/inválido</li>
+            <li>Vista detallada con badges por tipo de formato</li>
+        </ul>
+
+        <h3>Firmada y Notarizada:</h3>
+        <ul>
+            <li>✅ Firmada con certificado Developer ID</li>
+            <li>✅ Notarizada por Apple</li>
+            <li>✅ Sin advertencias de seguridad</li>
+        </ul>
+
+        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.23">notas completas</a> para más detalles.</p>
+    ]]></description>
+    <pubDate>Mon, 11 Nov 2025 18:02:00 +0000</pubDate>
+    <guid isPermaLink="false">gula-1.0.23</guid>
+    <sparkle:version>27</sparkle:version>
+    <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+    <enclosure
+        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.23/Gula-1.0.23.dmg"
+        length="6291966"
+        type="application/octet-stream"
+        sparkle:edSignature="CYzHRjabbfr9lMVxFQHzZouKFfhTZv+C1SxW7C9TMQzXewztdBizHQbxMv02z/c85sIbhoIWjT47l1nBXh5yDQ==" />
+</item>
+<item>
     <title>Gula 1.0.22</title>
     <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.22</link>
     <description><![CDATA[
