@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.22-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.23-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,21 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.22 (Actual) - 10 Nov 2025
+### 🎯 Versión 1.0.23 (Actual) - 11 Nov 2025
+**Git Analytics con Validación de Commits**
+- 📊 Nueva card de información de Git en el resumen del proyecto
+- 🔢 Contador de ramas con alerta si hay más de 8 (mensaje: "Revisar ramas antiguas")
+- 🏷️ Contador de tags con warning si no hay ninguno
+- ✅ Análisis de formato de commits con validación de estándares:
+  - Conventional Commits (feat:, fix:, docs:, etc.)
+  - Formato Imperativo (Add, Fix, Update, Merge, Merged, etc.)
+  - Formato JIRA/Ticket ([JIRA-123]: mensaje)
+- 📈 Barra de progreso visual mostrando porcentaje de commits válidos
+- 🎨 Modal interactivo con análisis detallado de los últimos 10 commits
+- 🎯 Color-coded por estado: Verde (≥80%), Naranja (50-79%), Rojo (<50%)
+- Tamaño: 6 MB
+
+### Versión 1.0.22 - 10 Nov 2025
 **Diseño Mejorado del Resumen de Proyecto**
 - 🎨 Rediseño sofisticado de la vista de resumen del proyecto
 - ✨ MetadataCard con fondos gradientes circulares y efectos hover dinámicos
@@ -182,6 +196,6 @@ Para reportar bugs o solicitar nuevas características:
 
 **Desarrollado por RudoApps**
 
-*Última actualización: 10 de Noviembre de 2025*
+*Última actualización: 11 de Noviembre de 2025*
 
 </div>
