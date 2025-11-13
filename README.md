@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.23-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.24-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,18 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.23 (Actual) - 11 Nov 2025
+### 🎯 Versión 1.0.24 (Actual) - 13 Nov 2025
+**Sistema de Logs y Mejoras de Verificación**
+- 📊 **Sistema Completo de Logs**: Ventana independiente para ver todos los comandos Gula en tiempo real
+- 💬 **Logs en Tiempo Real**: Timestamps precisos con milisegundos y color-coding
+- 🔵 **Botón Flotante**: Acceso rápido a logs desde cualquier pantalla
+- 🚀 **Transición Automática**: Ya no requiere clic en "Continuar" después de verificación exitosa
+- 🔧 **Detección Mejorada**: Limpieza de códigos ANSI para correcta detección de versiones de Gula CLI
+- 📋 **Registro Automático**: Todos los comandos Gula se registran automáticamente en los logs
+- 🐛 **Correcciones**: Detección de versión, manejo de errores mejorado, navegación corregida
+- Tamaño: 6 MB
+
+### Versión 1.0.23 - 11 Nov 2025
 **Git Analytics con Validación de Commits**
 - 📊 Nueva card de información de Git en el resumen del proyecto
 - 🔢 Contador de ramas con alerta si hay más de 8 (mensaje: "Revisar ramas antiguas")
@@ -196,6 +207,6 @@ Para reportar bugs o solicitar nuevas características:
 
 **Desarrollado por RudoApps**
 
-*Última actualización: 11 de Noviembre de 2025*
+*Última actualización: 13 de Noviembre de 2025*
 
 </div>
