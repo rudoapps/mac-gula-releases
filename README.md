@@ -177,6 +177,64 @@ Este repositorio contiene:
   - `sign_update`: Firma de actualizaciones
   - `BinaryDelta`: Actualizaciones diferenciales
 
+## 🔐 Claves de Firmado Sparkle
+
+**⚠️ IMPORTANTE**: Para crear releases correctas, es crucial usar las claves correctas.
+
+### Configuración de Claves
+
+La app está configurada con la siguiente **clave pública** en `Info.plist`:
+```xml
+<key>SUPublicEDKey</key>
+<string>11MM9rve3qw5UtLY+dAo+FtwLVa55fC+u5JkZW/eC/M=</string>
+```
+
+La **clave privada** correspondiente se encuentra en:
+- **Ubicación**: `/Users/fer/mac-app-vibe-coding/sparkle_private_key`
+- **Valor**: `iUK2uxqOglQdmzvkyUP9EE0cHsaB5en7jvmchn1rvYs=`
+
+### Proceso de Firmado
+
+Para firmar un DMG correctamente:
+
+```bash
+/Users/fer/mac-app-vibe-coding/build/SourcePackages/artifacts/sparkle/Sparkle/bin/sign_update \
+  --ed-key-file /Users/fer/mac-app-vibe-coding/sparkle_private_key \
+  Gula-1.0.X.dmg
+```
+
+**NO usar el Keychain** para firmar, ya que contiene una clave diferente que genera firmas incompatibles:
+- Clave pública incorrecta en Keychain: `+BOntVOzwPutvXQGowY8OEd5eCdCvjcn6WpVVk9uaAY=`
+
+### Script Automático
+
+El script `create_full_release.sh` ya está configurado correctamente para usar `--ed-key-file`:
+```bash
+./scripts/create_full_release.sh 1.0.X BUILD_NUMBER "Descripción"
+```
+
+### Verificación de Firma
+
+Para verificar que una firma es válida:
+
+```bash
+# Verificar firma de un DMG
+SIGNATURE="..." # copiar del appcast
+/Users/fer/mac-app-vibe-coding/build/SourcePackages/artifacts/sparkle/Sparkle/bin/sign_update \
+  --verify \
+  --ed-key-file /Users/fer/mac-app-vibe-coding/sparkle_private_key \
+  Gula-1.0.X.dmg \
+  "$SIGNATURE"
+```
+
+### Backup de Claves
+
+**CRÍTICO**: Mantener backup de estas claves en lugar seguro:
+- Clave privada: `/Users/fer/mac-app-vibe-coding/sparkle_private_key`
+- Clave pública: `11MM9rve3qw5UtLY+dAo+FtwLVa55fC+u5JkZW/eC/M=`
+
+Si se pierden las claves, **todos los usuarios deberán descargar e instalar manualmente** la app para poder recibir actualizaciones futuras.
+
 ## 📝 Licencia
 
 Gula está distribuido bajo la licencia MIT. Sparkle Framework está licenciado bajo su propia licencia (ver [LICENSE](LICENSE)).
