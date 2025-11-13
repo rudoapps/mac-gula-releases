@@ -6,6 +6,61 @@
         <description>Updates for Gula App</description>
         <language>es</language>
 <item>
+    <title>Gula 1.0.24</title>
+    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.24</link>
+    <description><![CDATA[
+        <h2>🎉 Gula 1.0.24 - Sistema de Logs y Mejoras de Verificación</h2>
+        <p>Versión con sistema completo de logs en tiempo real y transición automática mejorada.</p>
+
+        <h3>✨ Nuevas Funcionalidades:</h3>
+        <ul>
+            <li>📊 <strong>Sistema Completo de Logs</strong>:
+                <ul>
+                    <li>• Ventana independiente para ver todos los comandos Gula</li>
+                    <li>• Logs en tiempo real con timestamps</li>
+                    <li>• Botón flotante azul para acceso rápido</li>
+                    <li>• Colores por tipo (comando, output, error, éxito, warning)</li>
+                </ul>
+            </li>
+            <li>🚀 <strong>Transición Automática</strong>: Ya no es necesario hacer clic en "Continuar" después de verificación exitosa</li>
+            <li>🔧 <strong>Detección Mejorada</strong>: Limpieza de códigos ANSI para correcta detección de versiones</li>
+            <li>📋 <strong>Logs Automáticos</strong>: Todos los comandos Gula se registran automáticamente</li>
+        </ul>
+
+        <h3>🐛 Correcciones:</h3>
+        <ul>
+            <li>Corregida detección de versión de Gula CLI que fallaba por códigos ANSI</li>
+            <li>Mejorado manejo de errores con mensajes más descriptivos</li>
+            <li>Corregida navegación después de verificación de dependencias</li>
+        </ul>
+
+        <h3>📋 Incluye características de 1.0.23:</h3>
+        <ul>
+            <li>Análisis de Git con validación de formato de commits</li>
+            <li>Contador de ramas y tags con alertas</li>
+            <li>Modal interactivo con análisis detallado</li>
+        </ul>
+
+        <h3>🔐 Seguridad:</h3>
+        <ul>
+            <li>✅ Firmada con certificado Developer ID</li>
+            <li>✅ Notarizada por Apple</li>
+            <li>✅ Sin advertencias de seguridad</li>
+        </ul>
+
+        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.24">notas completas</a> para más detalles.</p>
+    ]]></description>
+    <pubDate>Wed, 13 Nov 2025 11:52:00 +0000</pubDate>
+    <guid isPermaLink="false">gula-1.0.24</guid>
+    <sparkle:version>28</sparkle:version>
+    <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+    <enclosure
+        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.24/Gula-1.0.24.dmg"
+        length="6343893"
+        type="application/octet-stream"
+        sparkle:edSignature="kKLlytblwkv4NlTEvQ/rCbx63aHIio1gtcJihOdDY+AhaVAiNRMaAtcC5JHe2oG1Z4od5CndNnFROXwPs69PDA==" />
+</item>
+<item>
     <title>Gula 1.0.23</title>
     <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.23</link>
     <description><![CDATA[
