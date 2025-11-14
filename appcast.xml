@@ -1,120 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>Gula Updates</title>
         <link>https://github.com/rudoapps/mac-gula/releases</link>
         <description>Updates for Gula App</description>
         <language>es</language>
-<item>
-    <title>Gula 1.0.24</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.24</link>
-    <description><![CDATA[
-        <h2>🎉 Gula 1.0.24 - Sistema de Logs y Mejoras de Verificación</h2>
-        <p>Versión con sistema completo de logs en tiempo real y transición automática mejorada.</p>
-
-        <h3>✨ Nuevas Funcionalidades:</h3>
-        <ul>
-            <li>📊 <strong>Sistema Completo de Logs</strong>:
-                <ul>
-                    <li>• Ventana independiente para ver todos los comandos Gula</li>
-                    <li>• Logs en tiempo real con timestamps</li>
-                    <li>• Botón flotante azul para acceso rápido</li>
-                    <li>• Colores por tipo (comando, output, error, éxito, warning)</li>
-                </ul>
-            </li>
-            <li>🚀 <strong>Transición Automática</strong>: Ya no es necesario hacer clic en "Continuar" después de verificación exitosa</li>
-            <li>🔧 <strong>Detección Mejorada</strong>: Limpieza de códigos ANSI para correcta detección de versiones</li>
-            <li>📋 <strong>Logs Automáticos</strong>: Todos los comandos Gula se registran automáticamente</li>
-        </ul>
-
-        <h3>🐛 Correcciones:</h3>
-        <ul>
-            <li>Corregida detección de versión de Gula CLI que fallaba por códigos ANSI</li>
-            <li>Mejorado manejo de errores con mensajes más descriptivos</li>
-            <li>Corregida navegación después de verificación de dependencias</li>
-        </ul>
-
-        <h3>📋 Incluye características de 1.0.23:</h3>
-        <ul>
-            <li>Análisis de Git con validación de formato de commits</li>
-            <li>Contador de ramas y tags con alertas</li>
-            <li>Modal interactivo con análisis detallado</li>
-        </ul>
-
-        <h3>🔐 Seguridad:</h3>
-        <ul>
-            <li>✅ Firmada con certificado Developer ID</li>
-            <li>✅ Notarizada por Apple</li>
-            <li>✅ Sin advertencias de seguridad</li>
-        </ul>
-
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.24">notas completas</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Wed, 13 Nov 2025 11:52:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.24</guid>
-    <sparkle:version>28</sparkle:version>
-    <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.24/Gula-1.0.24.dmg"
-        length="6343893"
-        type="application/octet-stream"
-        sparkle:edSignature="rgg7V3mrI1QdL8biPwxWG6nuo9r55bZaTpCqXESe7ElstTjwWurzIqzb8rOEmTqdbwBqtkXEGj+aF3lpoC6EDA==" />
-</item>
-<item>
-    <title>Gula 1.0.23</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.23</link>
-    <description><![CDATA[
-        <h2>✨ Gula 1.0.23 - Git Analytics con Validación de Commits</h2>
-        <p>Esta versión incluye un sistema completo de análisis de Git con validación de formato de commits.</p>
-
-        <h3>✨ Nuevas Funcionalidades:</h3>
-        <ul>
-            <li>📊 Nueva card de información de Git en la pantalla de resumen</li>
-            <li>🔍 Validación de número de ramas (advertencia si >8)</li>
-            <li>🏷️ Validación de tags (advertencia si no hay tags)</li>
-            <li>✅ Análisis de formato de commits con soporte para:</li>
-            <ul>
-                <li>• Conventional Commits (feat:, fix:, docs:, etc.)</li>
-                <li>• Formato Imperativo (Add, Fix, Update, etc.)</li>
-                <li>• Formato JIRA/Ticket ([JIRA-123]:, [TICKET-456]:)</li>
-                <li>• Commits de merge (Merged)</li>
-            </ul>
-            <li>📋 Click para ver análisis detallado de commits</li>
-            <li>📈 Barra de progreso visual mostrando porcentaje de cumplimiento</li>
-            <li>🎨 Indicadores de estado con códigos de color</li>
-        </ul>
-
-        <h3>📊 Métricas de Código:</h3>
-        <ul>
-            <li>Análisis de los últimos 10 commits</li>
-            <li>Clasificación automática de formato válido/inválido</li>
-            <li>Vista detallada con badges por tipo de formato</li>
-        </ul>
-
-        <h3>Firmada y Notarizada:</h3>
-        <ul>
-            <li>✅ Firmada con certificado Developer ID</li>
-            <li>✅ Notarizada por Apple</li>
-            <li>✅ Sin advertencias de seguridad</li>
-        </ul>
-
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.23">notas completas</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Mon, 11 Nov 2025 18:02:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.23</guid>
-    <sparkle:version>27</sparkle:version>
-    <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.23/Gula-1.0.23.dmg"
-        length="6291966"
-        type="application/octet-stream"
-        sparkle:edSignature="CYzHRjabbfr9lMVxFQHzZouKFfhTZv+C1SxW7C9TMQzXewztdBizHQbxMv02z/c85sIbhoIWjT47l1nBXh5yDQ==" />
-</item>
-<item>
-    <title>Gula 1.0.22</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.22</link>
-    <description><![CDATA[
+        <item>
+            <title>Gula 1.0.24</title>
+            <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.24</link>
+            <pubDate>Wed, 13 Nov 2025 11:52:00 +0000</pubDate>
+            <guid isPermaLink="false">gula-1.0.24</guid>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+            <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/Gula-1.0.25.dmg" length="6343893" type="application/octet-stream"/>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula28-27.delta" sparkle:deltaFrom="27" length="670810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hICr7yX1qwAC6Ydo+nlaZEtnx8dQSAFdgpdjIHChJBkER1KkwMYz4mqeBJAPq2enrHKtWFg+EvSBw9DAQGpUCA=="/>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula28-26.delta" sparkle:deltaFrom="26" length="878162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="55plqM/dfVZ7gkvQRIGhwkUK10SZxL5kATxqZ0UYjKyun59kyaF6xcU2WQ4a89dUYCSYscP1awKo0KbTfOZYDQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula28-21.delta" sparkle:deltaFrom="21" length="1179630" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kQgcZ0LphPgcGaMhrhIRFltTIsPbKNRztX5ijA7tKD21EcZaWKMSFSzuZ+OFGuwWbXcmHO6d52Guj24MQX0EDA=="/>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula28-20.delta" sparkle:deltaFrom="20" length="1177158" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6Mwlr9rGc+0c+DR4ea0Wx9vyeHUl1etuo5KY23TvGtjc0I5oVtmsx5GhFagOdXnVLDj8vtexzo9CjAFqwY4jBA=="/>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula28-19.delta" sparkle:deltaFrom="19" length="1177546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6x8h04rHGMZMrl0z4nCBSg4J1vsvOkSVoyo2/NO5JTERuTYGP5pr2mZ6Np8Pjolpxbli/u6ZQbRPWvqWMfgCBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>Gula 1.0.23</title>
+            <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.23</link>
+            <pubDate>Mon, 11 Nov 2025 18:02:00 +0000</pubDate>
+            <guid isPermaLink="false">gula-1.0.23</guid>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/Gula-1.0.23.dmg" length="6291966" type="application/octet-stream"/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula27-26.delta" sparkle:deltaFrom="26" length="728038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8NHEVSg6ZDPacIOIsvYgDE2h+pct5q4z7YSMul2It9lrFSk8XaHSuK0YRG96MIOpbQm8aHoizW3Mo5qmS6fYAw=="/>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula27-21.delta" sparkle:deltaFrom="21" length="1082726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1VmbEog/2OzOTv+j5MNy6fFPw2ifwnZF5h/LZMsn9KxppFyJqzHv99xugL85ZpZh+DdNH2QGpgLWbQpTtP4wCg=="/>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula27-20.delta" sparkle:deltaFrom="20" length="1086614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U/wgqrh2/EeKjxMta+fcysWDnhiDbTG8xmEbEqsyCN2ddAQPHjMN4q6OPYR8SXQ2SFwg+Sj2eJSTGoG7yVpIBQ=="/>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula27-19.delta" sparkle:deltaFrom="19" length="1092770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uS/A30pzZM1Ts8jhptlqHS2b5TBleZO1Oqav7WxPjFp5Veaqzti5WUxTSih2TCoFkglFYNU/Chf4V4ScDtvGBg=="/>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula27-17.delta" sparkle:deltaFrom="17" length="1108546" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i8VJv33OkhEXZtASe+CwP/G6NlBcEy33AZSD/EG6JtZcXAye5aSBXH6TnjAEEYRbRHDxL+AY67x/DpDsWIc0Dg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>Gula 1.0.22</title>
+            <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.22</link>
+            <description><![CDATA[
         <h2>🎨 Gula 1.0.22 - Diseño Mejorado del Resumen de Proyecto</h2>
         <p>Esta versión incluye un rediseño sofisticado de la vista de resumen del proyecto con efectos visuales y animaciones mejoradas.</p>
 
@@ -137,461 +65,44 @@
 
         <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.22">notas de la versión</a> para más detalles.</p>
     ]]></description>
-    <pubDate>Sun, 10 Nov 2025 13:40:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.22</guid>
-    <sparkle:version>25</sparkle:version>
-    <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.22/Gula-1.0.22.dmg"
-        length="40199662"
-        type="application/octet-stream"
-        sparkle:edSignature="97X3BI35iOMxfKgUQczXFPiFA15WhBhBNm0Jn/uxo44dAK6KcLZuGa2KiEilHxLshAKprhg+HpWHfuT09FqjAg==" />
-</item>
-<item>
-    <title>Gula 1.0.19</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.19</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.19</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <ul>
-            <li>✅ Mejoras generales</li>
-            <li>✅ Correcciones de bugs</li>
-            <li>✅ Optimizaciones de rendimiento</li>
-        </ul>
-
-        <h3>Firmada y Notarizada:</h3>
-        <ul>
-            <li>✅ Firmada con certificado Developer ID</li>
-            <li>✅ Notarizada por Apple</li>
-            <li>✅ Sin advertencias de seguridad</li>
-        </ul>
-
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.19">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Sun, 03 Nov 2025 17:00:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.19</guid>
-    <sparkle:version>21</sparkle:version>
-    <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.19/Gula-1.0.19.dmg"
-        length="5916551"
-        type="application/octet-stream"
-        sparkle:edSignature="X+d5EEp0e4yL7zPNeQ214Cy3f385Oqk1TKmYS3tzSCAtluCB0Oim+wrLkQEtQcRNVxxMgrF3ZYpgbsqawjDeCQ==" />
-</item>
-<item>
-    <title>Gula 1.0.18</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.18</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.18</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <ul>
-            <li>✅ Mejoras generales</li>
-            <li>✅ Correcciones de bugs</li>
-            <li>✅ Optimizaciones de rendimiento</li>
-        </ul>
-
-        <h3>Firmada y Notarizada:</h3>
-        <ul>
-            <li>✅ Firmada con certificado Developer ID</li>
-            <li>✅ Notarizada por Apple</li>
-            <li>✅ Sin advertencias de seguridad</li>
-        </ul>
-
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.18">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Sun, 03 Nov 2025 16:46:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.18</guid>
-    <sparkle:version>20</sparkle:version>
-    <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.18/Gula-1.0.18.dmg"
-        length="5916386"
-        type="application/octet-stream"
-        sparkle:edSignature="QtkK+C+B1RNXPf66lQ7lOt6xSniE9cgilZd4PKxg5XnMO7lcviOOK6o9vwtX3f4SZU+/mHTzGyKjhS99ABI3Dw==" />
-</item>
-<item>
-    <title>Gula 1.0.17</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.17</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.17</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <ul>
-            <li>✅ Mejoras generales</li>
-            <li>✅ Correcciones de bugs</li>
-            <li>✅ Optimizaciones de rendimiento</li>
-        </ul>
-
-        <h3>Firmada y Notarizada:</h3>
-        <ul>
-            <li>✅ Firmada con certificado Developer ID</li>
-            <li>✅ Notarizada por Apple</li>
-            <li>✅ Sin advertencias de seguridad</li>
-        </ul>
-
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.17">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Sun, 03 Nov 2025 13:15:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.17</guid>
-    <sparkle:version>19</sparkle:version>
-    <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.17/Gula-1.0.17.dmg"
-        length="5915597"
-        type="application/octet-stream"
-        sparkle:edSignature="ojZMjON19D6UE/5rRZbCj/Znr3PcPhbXFgX/Vt+/sSq8SpLTkwtQ6ukfHrku5zhv1qwOV7DaG93E11Y6Tv4bAA==" />
-</item>
-<item>
-    <title>Gula 1.0.16</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.16</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.16</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <ul>
-            <li>✅ Mejoras generales</li>
-            <li>✅ Correcciones de bugs</li>
-        </ul>
-
-        <h3>Firmada y Notarizada:</h3>
-        <ul>
-            <li>✅ Firmada con certificado Developer ID</li>
-            <li>✅ Notarizada por Apple</li>
-            <li>✅ Sin advertencias de seguridad</li>
-        </ul>
-
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.16">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Fri, 31 Oct 2025 12:50:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.16</guid>
-    <sparkle:version>17</sparkle:version>
-    <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.16/Gula-1.0.16.dmg"
-        length="5898212"
-        type="application/octet-stream"
-        sparkle:edSignature="3JBsy6mhEuIxZ+GgHZa6BKBc8g+WkChY+xpQFQZ7wfGBjCclHT4gj6srH90X08RTj73WOMQ0vkgPRG6Y8S2/AA==" />
-</item>
-<item>
-    <title>Gula 1.0.15</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.15</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.15</h2>
-        <p>✅ Primera versión con <strong>Sparkle completamente funcional</strong>!</p>
-
-        <h3>Cambios:</h3>
-        <ul>
-            <li>✅ SUFeedURL configurado correctamente</li>
-            <li>✅ SUPublicEDKey configurado</li>
-            <li>✅ Verificación cada 1 hora</li>
-            <li>✅ Actualizaciones automáticas funcionando</li>
-        </ul>
-
-        <h3>Firmada y Notarizada:</h3>
-        <ul>
-            <li>✅ Firmada con certificado Developer ID</li>
-            <li>✅ Notarizada por Apple</li>
-            <li>✅ Sin advertencias de seguridad</li>
-        </ul>
-
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.15">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Fri, 31 Oct 2025 11:00:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.15</guid>
-    <sparkle:version>16</sparkle:version>
-    <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.15/Gula-1.0.15.dmg"
-        length="5926431"
-        type="application/octet-stream"
-        sparkle:edSignature="KiHQw7scBoFChW5kVP1rZXM6hVAdEcj98A7iPrQhMQhXCicgJ9A686fkV6QwLkwbrMlBGSq/p6DqJuETvWuaAA==" />
-</item>
-<item>
-    <title>Gula 1.0.14 - ⚠️ Actualización Crítica</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.14</link>
-    <description><![CDATA[
-        <h2>⚠️ Gula 1.0.14 - ACTUALIZACIÓN CRÍTICA</h2>
-        <p><strong>Esta actualización es obligatoria y debe instalarse inmediatamente.</strong></p>
-
-        <h3>Importante:</h3>
-        <ul>
-            <li>🔒 Mejoras críticas de estabilidad</li>
-            <li>✅ Correcciones importantes</li>
-            <li>⚡ Actualización obligatoria para todos los usuarios</li>
-        </ul>
-
-        <p>La aplicación se actualizará automáticamente. No se puede posponer esta actualización.</p>
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.14">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Fri, 31 Oct 2025 10:50:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.14-critical</guid>
-    <sparkle:version>15</sparkle:version>
-    <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <sparkle:criticalUpdate sparkle:version="14" />
-    <sparkle:minimumAutoupdateVersion>14</sparkle:minimumAutoupdateVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.14/Gula-1.0.14.dmg"
-        length="5926054"
-        type="application/octet-stream"
-        sparkle:edSignature="lrBSM9F/ZoyuxqBNZJ5ZigUMnYyUp1BravjljS9oakTTg77M8g3A4DUs3YcQ5QmYMpmVD2QOYfZOuAtK6QbyDw==" />
-</item>
-<item>
-    <title>Gula 1.0.13</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.13</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.13 - Firmada y Notarizada</h2>
-        <p>✅ Primera versión firmada con certificado Developer ID y notarizada por Apple.</p>
-        <p>No mostrará advertencias de seguridad al instalarse.</p>
-
-        <h3>Cambios:</h3>
-        <ul>
-            <li>✅ Firmada con certificado Developer ID</li>
-            <li>✅ Notarizada por Apple</li>
-            <li>✅ Hardened Runtime habilitado</li>
-            <li>✅ Sin advertencias de seguridad en macOS</li>
-        </ul>
-
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.13">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Fri, 31 Oct 2025 10:45:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.13</guid>
-    <sparkle:version>14</sparkle:version>
-    <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.13/Gula-1.0.13.dmg"
-        length="5926083"
-        type="application/octet-stream"
-        sparkle:edSignature="kJco3yiDleNpDQRMsaTQJAFm/OgQLH529nK/LOyJlQnngLRrHMPrG5nVLyXJd2Sfmt5Tfg5hqPZvTKoh4ZYxAA==" />
-</item>
-<item>
-    <title>Gula 1.0.12</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.12</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.12</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.12">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Thu, 30 Oct 2025 16:18:30 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.12</guid>
-    <sparkle:version>13</sparkle:version>
-    <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.12/Gula-1.0.12.dmg"
-        length="4300263"
-        type="application/octet-stream"
-        sparkle:edSignature="2NeoaYeMG2FgeyYZRhAJFOYL1IlDL3fYVVV6q3SviEewK16j5L9x+lAEAw1V3hxm1Uk+nruR9HOXuyPFrvR2CA==" />
-</item>
-<item>
-    <title>Gula 1.0.11</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.11</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.11</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.11">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Thu, 30 Oct 2025 15:58:02 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.11</guid>
-    <sparkle:version>12</sparkle:version>
-    <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.11/Gula-1.0.11.dmg"
-        length="4300335"
-        type="application/octet-stream"
-        sparkle:edSignature="pCw2KLWIsxyR2kof9vQY7MPAAKXLcnknypduiE3mQ5b4N79vn7W1AyhsDMp/IT2OtDPc7T6HwtM4Say1UleLAw==" />
-</item>
-<item>
-    <title>Gula 1.0.10</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.10</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.10</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.10">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Thu, 30 Oct 2025 15:51:14 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.10</guid>
-    <sparkle:version>11</sparkle:version>
-    <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.10/Gula-1.0.10.dmg"
-        length="4300351"
-        type="application/octet-stream"
-        sparkle:edSignature="kxtGw97dyg2AnADmy7pBLPf3MFK9RqcVChokU2PlfOVoOZJ5ENz/QvG6H73HUMbE9V5tX/7KAiU5Oh56dusVCg==" />
-</item>
-<item>
-    <title>Gula 1.0.9</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.9</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.9</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.9">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Thu, 30 Oct 2025 15:24:14 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.9</guid>
-    <sparkle:version>10</sparkle:version>
-    <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.9/Gula-1.0.9.dmg"
-        length="4300333"
-        type="application/octet-stream"
-        sparkle:edSignature="AU9qes7YtwHECXbjhc68zWduRU5x4KcwS1t9gbPQn7tB+qu3CbZh1ObYUGGnWD7AgP2g5dR5R3cHIr6FdTEcAA==" />
-</item>
-<item>
-    <title>Gula 1.0.8</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.8</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.8</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.8">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Thu, 30 Oct 2025 15:05:13 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.8</guid>
-    <sparkle:version>9</sparkle:version>
-    <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.8/Gula-1.0.8.dmg"
-        length="4300368"
-        type="application/octet-stream"
-        sparkle:edSignature="uv94cmDjrnrqtiTUFeViApmBU/GtDic1e/IMG08KTJRGxEzl9AAK3a0ioFt9qYdvgG6ofd1ZdnTaVcSZoAmkBQ==" />
-</item>
-<item>
-    <title>Gula 1.0.7</title>
-    <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.7</link>
-    <description><![CDATA[
-        <h2>Gula 1.0.7</h2>
-        <p>Nueva versión disponible!</p>
-
-        <h3>Cambios:</h3>
-        <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.7">notas de la versión</a> para más detalles.</p>
-    ]]></description>
-    <pubDate>Thu, 30 Oct 2025 14:49:00 +0000</pubDate>
-    <guid isPermaLink="false">gula-1.0.7</guid>
-    <sparkle:version>8</sparkle:version>
-    <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-    <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-    <enclosure
-        url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.7/Gula-1.0.7.dmg"
-        length="4300328"
-        type="application/octet-stream"
-        sparkle:edSignature="0acJx+vbAYXhPACIHLhb56Qg0RBiJfwZCjyyawocN12VL4c80u8uMxp5ReO5c7aKt4ieuTuhbg4LYoe5lkEjAA==" />
-</item>
-
+            <pubDate>Sun, 10 Nov 2025 13:40:00 +0000</pubDate>
+            <guid isPermaLink="false">gula-1.0.22</guid>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.22/Gula-1.0.22.dmg" length="40199662" type="application/octet-stream" sparkle:edSignature="97X3BI35iOMxfKgUQczXFPiFA15WhBhBNm0Jn/uxo44dAK6KcLZuGa2KiEilHxLshAKprhg+HpWHfuT09FqjAg=="/>
+        </item>
+        <item>
+            <title>Gula 1.0.19</title>
+            <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.19</link>
+            <pubDate>Sun, 03 Nov 2025 17:00:00 +0000</pubDate>
+            <guid isPermaLink="false">gula-1.0.19</guid>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/Gula-1.0.19.dmg" length="5916551" type="application/octet-stream"/>
+        </item>
+        <item>
+            <title>Gula 1.0.14 - ⚠️ Actualización Crítica</title>
+            <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.14</link>
+            <pubDate>Fri, 31 Oct 2025 10:50:00 +0000</pubDate>
+            <guid isPermaLink="false">gula-1.0.14-critical</guid>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:criticalUpdate sparkle:version="14"/>
+            <sparkle:minimumAutoupdateVersion>14</sparkle:minimumAutoupdateVersion>
+            <enclosure url="Gula-1.0.14.dmg" length="5926054" type="application/octet-stream"/>
+            <sparkle:deltas>
+                <enclosure url="//gula15-12.delta" sparkle:deltaFrom="12" length="1479470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862672" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hNKuZluuhLfWb82LKxs2Emrq3YNBqjURGO9fDbJrMSxOFmrgIxUTruR4P54ZRxoj4JwTGm0eJLSE7zBjuhXGBQ=="/>
+                <enclosure url="//gula15-11.delta" sparkle:deltaFrom="11" length="1479838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862672" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="swFEZDd/It1FdBuvqQpcdLr3eFPCDVoXym7Ztcsqrg8KFaQNGoglr7iZpb1AJW13zdwfe7/zGsQVSG3xcqlgDw=="/>
+                <enclosure url="//gula15-10.delta" sparkle:deltaFrom="10" length="1479838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862672" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZdSJIM1Fw7hUXKAop3BEh9gKHMM4t/iAfmoRZmumOnV5uNMoCfgJEAkkMH7nHQL5dEsWkUastQFKcENqfSwHBA=="/>
+                <enclosure url="//gula15-9.delta" sparkle:deltaFrom="9" length="1479686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862672" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AZHgq2NvyMqyoAPLGay+ag9g7cO8u7oIVAOeLr3gSQCR4OAOQw7tUPHCrImeihWEQI/0SqYWNjzB9xRn2eUhBg=="/>
+                <enclosure url="//gula15-8.delta" sparkle:deltaFrom="8" length="1477094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862672" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kRVn66lXEZ9L8wMw3Ym6mB7YfxbhSASMYwVscs01BDUSuniJRRYjAj/3GQ47uCPn805r8DobduMf218gcw27Aw=="/>
+            </sparkle:deltas>
+        </item>
         <!-- Version 1.0.6 - Latest update -->
-        <item>
-            <title>Gula 1.0.6</title>
-            <link>https://github.com/rudoapps/mac-gula/releases/tag/v1.0.6</link>
-            <description><![CDATA[
-                <h2>Gula 1.0.6</h2>
-                <p>Nuevas mejoras y correcciones de bugs</p>
-
-                <h3>Mejoras en esta versión:</h3>
-                <ul>
-                    <li>✅ Mejoras de rendimiento</li>
-                    <li>✅ Correcciones de bugs</li>
-                    <li>✅ Sistema de actualizaciones mejorado</li>
-                </ul>
-            ]]></description>
-            <pubDate>jue, 30 oct 2025 14:12:49 +0000</pubDate>
-            <guid isPermaLink="false">gula-1.0.6</guid>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rudoapps/mac-gula/releases/download/v1.0.6/Gula-1.0.6.zip"
-                length="4848269"
-                type="application/octet-stream"
-                sparkle:edSignature="mDQ4BlmhPlMgK3aMzp/9fnPoEMHVlnkTQ4grRNFyR6KoDziILJi7vM9D0LrZobS+wLkYMUS1a8/SI6KzATJ/CA==" />
-        </item>
-
         <!-- Version 1.0.5 - Previous release -->
-        <item>
-            <title>Gula 1.0.5</title>
-            <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.5</link>
-            <description><![CDATA[
-                <h2>Gula 1.0.5</h2>
-                <p>Nueva versión disponible!</p>
-
-                <h3>Cambios:</h3>
-                <p>Ver las <a href="https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.5">notas de la versión</a> para más detalles.</p>
-            ]]></description>
-            <pubDate>Thu, 30 Oct 2025 12:48:30 +0000</pubDate>
-            <guid isPermaLink="false">gula-1.0.5</guid>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.5/Gula-1.0.5.dmg"
-                length="4298521"
-                type="application/octet-stream"
-                sparkle:edSignature="85XSGvsh/iJC1nLUF73BXKwufI3VDmnpO4l4t6hOn+tMBP7Jcw1IzYAuXw5nP2oagJDUHdm5+2mXZsri3tPsCQ==" />
-        </item>
-
         <!-- Current version entry (1.0.3) - Base version with Sparkle configured -->
-        <item>
-            <title>Gula 1.0.3</title>
-            <link>https://github.com/rudoapps/mac-gula/releases/tag/v1.0.3</link>
-            <description><![CDATA[
-                <h2>Gula 1.0.3 - Sparkle Integration</h2>
-                <p>Esta versión incluye actualizaciones automáticas mediante Sparkle.</p>
-
-                <h3>Mejoras en esta versión:</h3>
-                <ul>
-                    <li>✅ Carga automática de API key</li>
-                    <li>✅ Carga automática de ramas del repositorio</li>
-                    <li>✅ Mejor detección de errores de red vs API key</li>
-                    <li>✅ Corrección del icono de la aplicación</li>
-                    <li>✅ Soporte para actualizaciones automáticas con Sparkle</li>
-                    <li>✅ Eliminación de dependencia del comando timeout (compatibilidad macOS)</li>
-                </ul>
-
-                <h3>Características principales:</h3>
-                <ul>
-                    <li>Gestión de proyectos iOS, Android y Flutter</li>
-                    <li>Generación automática de módulos</li>
-                    <li>Gestión de pre-commit hooks</li>
-                    <li>Generación de templates</li>
-                    <li>Integración con Google Sign-In</li>
-                    <li>Actualizaciones automáticas</li>
-                </ul>
-            ]]></description>
-            <pubDate>Wed, 23 Oct 2024 11:00:00 +0000</pubDate>
-            <guid isPermaLink="false">gula-1.0.3</guid>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure
-                url="https://github.com/rudoapps/mac-gula/releases/download/v1.0.3/Gula-1.0.3.dmg"
-                length="2956083"
-                type="application/octet-stream"
-                sparkle:edSignature="ZLcoswEkqawL/FJvRavtnK3p2Ve4px2sFSjjCwyJpfOhj0yC58O8t+tC5bM3UlBhFbf6CAaI6zysV8RFk6aGBA==" />
-        </item>
     </channel>
 </rss>

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.24-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.25-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,20 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.24 (Actual) - 13 Nov 2025
+### 🎯 Versión 1.0.25 (Actual) - 14 Nov 2025
+**Selección de Tags y Mejoras de Verificación**
+- 🏷️ **Soporte de Tags**: Selecciona ramas o tags al instalar módulos desde el gestor
+- 📋 **Listado Inteligente**: Tags aparecen primero (más reciente primero), luego ramas
+- 🔄 **Integración JSON**: Usa `gula branches --json` para información estructurada
+- ✨ **UI Mejorada**: Picker con secciones separadas para Tags (🏷️) y Ramas (🌿)
+- 🎯 **Selección por Defecto**: Selecciona automáticamente el tag más reciente disponible
+- ✅ **Verificación Robusta**: Detección mejorada de Gula CLI con soporte para nuevos formatos
+- 🔧 **Actualizaciones Confiables**: Mejor manejo de actualizaciones automáticas
+- 🎨 **Tags en Verde**: Color corregido para tags con contenido en info de Git
+- 🐛 **Correcciones**: Error de verificación en configuración inicial solucionado
+- Tamaño: 6 MB
+
+### Versión 1.0.24 - 13 Nov 2025
 **Sistema de Logs y Mejoras de Verificación**
 - 📊 **Sistema Completo de Logs**: Ventana independiente para ver todos los comandos Gula en tiempo real
 - 💬 **Logs en Tiempo Real**: Timestamps precisos con milisegundos y color-coding
