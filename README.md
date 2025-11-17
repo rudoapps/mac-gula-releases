@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.25-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.26-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,17 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.25 (Actual) - 14 Nov 2025
+### 🎯 Versión 1.0.26 (Actual) - 17 Nov 2025
+**Fix de Ramas/Tags mostrando Null**
+- 🐛 **Fix Crítico**: Corregido bug donde las ramas/tags mostraban 'null' en módulos instalados
+- 📄 **Lectura Directa**: Implementada lectura del archivo `.gula.log` para máxima confiabilidad
+- 🔀 **Soporte Dual**: Soporta campos `"branch"` (formato antiguo) y `"source"` (formato nuevo)
+- 🛡️ **Fallbacks Robustos**: Múltiples capas de fallback para compatibilidad con versiones CLI
+- ⚡ **Mejor Rendimiento**: Lectura de archivo es más rápida que ejecutar comandos
+- 📊 **Mejor Logging**: Mensajes de debug detallados para diagnóstico
+- Tamaño: 4.4 MB
+
+### Versión 1.0.25 - 14 Nov 2025
 **Selección de Tags y Mejoras de Verificación**
 - 🏷️ **Soporte de Tags**: Selecciona ramas o tags al instalar módulos desde el gestor
 - 📋 **Listado Inteligente**: Tags aparecen primero (más reciente primero), luego ramas
