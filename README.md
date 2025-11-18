@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.26-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.27-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,17 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.26 (Actual) - 17 Nov 2025
+### 🎯 Versión 1.0.27 (Actual) - 18 Nov 2025
+**Modal de Ramas Completo y Fix de Threading**
+- 🌿 **Modal de Ramas**: Ahora muestra TODAS las ramas del repositorio (locales y remotas)
+- 📂 **Organización por Secciones**: Ramas Locales (azul) y Ramas Remotas (morado)
+- 🔄 **Carga Dinámica**: Ejecuta `git branch -a` para obtener todas las ramas
+- ✅ **Indicador Visual**: Marca clara de la rama actual
+- 🧵 **Fix Threading**: Corregido warning de publishing changes from background threads
+- ⚙️ **@MainActor**: Añadido a funciones que modifican propiedades observables en ProjectManager
+- Tamaño: 5.7 MB
+
+### Versión 1.0.26 - 17 Nov 2025
 **Fix de Ramas/Tags mostrando Null**
 - 🐛 **Fix Crítico**: Corregido bug donde las ramas/tags mostraban 'null' en módulos instalados
 - 📄 **Lectura Directa**: Implementada lectura del archivo `.gula.log` para máxima confiabilidad

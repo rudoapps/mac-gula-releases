@@ -6,13 +6,24 @@
         <description>Updates for Gula App</description>
         <language>es</language>
         <item>
+            <title>1.0.26</title>
+            <pubDate>Tue, 18 Nov 2025 09:31:42 +0100</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/Gula-1.0.27.dmg" length="5947233" type="application/octet-stream" sparkle:edSignature="w90P+J26xon9iNqyGixxcXMxUYQShd6vCKFX5O0wDPxDN8uVzLE/ObjE7Yj8TToh7h4SuEMjJcUqsapZUphpCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula29-28.delta" sparkle:deltaFrom="28" length="1728898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862864" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bb9nVNatBS7pQveOeM8wpbKnQzicDnhhCgz/o0Z+UwXLmG5xmm+vajcMUMXC45sL18qBUmoD1ZS9cg5OveerBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>Gula 1.0.24</title>
             <link>https://github.com/rudoapps/mac-gula-releases/releases/tag/v1.0.24</link>
             <pubDate>Wed, 13 Nov 2025 11:52:00 +0000</pubDate>
             <guid isPermaLink="false">gula-1.0.24</guid>
             <sparkle:version>28</sparkle:version>
             <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
-            <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/Gula-1.0.26.dmg" length="4644900" type="application/octet-stream"/>
+            <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/Gula-1.0.26.dmg" length="4644900" type="application/octet-stream" sparkle:edSignature="vEQ6nAkn1tZjXbVGFthxFSY/vGh7J2xuZf3Cf5rOsZMG2OvHsLuYXdOh/oeAmu1Lfh1t5pDuKtf8QpYJ+vqbAw=="/>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
             <sparkle:deltas>
                 <enclosure url="https://raw.githubusercontent.com/rudoapps/mac-gula-releases/main/gula28-27.delta" sparkle:deltaFrom="27" length="670810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="860896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hICr7yX1qwAC6Ydo+nlaZEtnx8dQSAFdgpdjIHChJBkER1KkwMYz4mqeBJAPq2enrHKtWFg+EvSBw9DAQGpUCA=="/>
