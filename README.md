@@ -59,13 +59,14 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 ## 📊 Historial de Versiones
 
 ### 🎯 Versión 1.0.27 (Actual) - 18 Nov 2025
-**Modal de Ramas Completo y Fix de Threading**
-- 🌿 **Modal de Ramas**: Ahora muestra TODAS las ramas del repositorio (locales y remotas)
+**Validación de Commits Actualizada y UI Simplificada**
+- 📝 **Nueva Validación de Commits**: Solo formato `[PROJECT-123]: Verbo imperativo`
+- 🚫 **Rechaza Pasado**: No permite verbos en pasado (Added, Fixed, Changed...)
+- ✅ **Merge Commits**: Acepta automáticamente commits de merge generados por Git
+- 🎯 **UI Simplificada**: Eliminadas cards de "Modificados" y "Por Push" en Git Analytics
+- 🌿 **Modal de Ramas**: Muestra TODAS las ramas del repositorio (locales y remotas)
 - 📂 **Organización por Secciones**: Ramas Locales (azul) y Ramas Remotas (morado)
-- 🔄 **Carga Dinámica**: Ejecuta `git branch -a` para obtener todas las ramas
-- ✅ **Indicador Visual**: Marca clara de la rama actual
 - 🧵 **Fix Threading**: Corregido warning de publishing changes from background threads
-- ⚙️ **@MainActor**: Añadido a funciones que modifican propiedades observables en ProjectManager
 - Tamaño: 5.7 MB
 
 ### Versión 1.0.26 - 17 Nov 2025
