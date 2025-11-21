@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.27-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.28-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,19 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.27 (Actual) - 18 Nov 2025
+### 🎯 Versión 1.0.28 (Actual) - 21 Nov 2025
+**UI Mejorada: Cards de Instalación y Logs en Tiempo Real**
+- 🔄 **Logs en Tiempo Real**: Durante instalación de módulos en ventana de Command Logs
+- 📊 **Nueva Card de Instalación**: Progreso circular animado con glow effect y shimmer bar
+- 💎 **Nueva Card de Carga**: Glow effects, 7 barras animadas y tip informativo
+- ℹ️ **Nota Informativa**: Integrada en card de selección de rama/tag
+- 🎨 **Listado Mejorado**: Iconos más grandes (40px) con glow effects
+- 🏷️ **Badges de Categoría**: Gradientes de colores por categoría
+- ✨ **Mejores Animaciones**: Spring effects y hover states
+- 🗑️ **Simplificación**: Eliminada card redundante de información
+- Tamaño: 5.7 MB
+
+### Versión 1.0.27 - 18 Nov 2025
 **Validación de Commits Actualizada y UI Simplificada**
 - 📝 **Nueva Validación de Commits**: Solo formato `[PROJECT-123]: Verbo imperativo`
 - 🚫 **Rechaza Pasado**: No permite verbos en pasado (Added, Fixed, Changed...)
