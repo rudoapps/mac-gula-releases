@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.28-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.30-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,22 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.28 (Actual) - 21 Nov 2025
+### 🎯 Versión 1.0.30 (Actual) - 1 Dic 2025
+**Mock Server y Security Scanner**
+- 🖥️ **Mock Server Completo**: Servidor mock integrado para pruebas de APIs
+- 🔍 **Security Scanner**: Escanea proyectos en busca de API keys y secretos expuestos
+- 📊 **Mock Server Status**: Visualiza el estado del servidor mock en la barra lateral
+- 🐍 **Fix Python**: Corregida la creación de proyectos Python
+- 🔧 **Mejoras de Endpoints**: Corregidos problemas al guardar y editar endpoints
+- Tamaño: 7.0 MB
+
+### Versión 1.0.29 - 27 Nov 2025
+**Estructura Mock Server**
+- 🏗️ **Estructura Clean**: Nueva arquitectura limpia para el Mock Server
+- 🎨 **Vistas Mock Server**: Nuevas vistas para gestión de endpoints
+- Tamaño: 6.9 MB
+
+### Versión 1.0.28 - 21 Nov 2025
 **UI Mejorada: Cards de Instalación y Logs en Tiempo Real**
 - 🔄 **Logs en Tiempo Real**: Durante instalación de módulos en ventana de Command Logs
 - 📊 **Nueva Card de Instalación**: Progreso circular animado con glow effect y shimmer bar
@@ -311,6 +326,6 @@ Para reportar bugs o solicitar nuevas características:
 
 **Desarrollado por RudoApps**
 
-*Última actualización: 13 de Noviembre de 2025*
+*Última actualización: 1 de Diciembre de 2025*
 
 </div>
