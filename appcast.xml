@@ -6,6 +6,14 @@
         <description>Updates for Gula App</description>
         <language>es</language>
         <item>
+            <title>1.0.30</title>
+            <pubDate>Mon, 01 Dec 2025 10:00:00 +0100</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/rudoapps/mac-gula-releases/releases/download/v1.0.30/Gula-1.0.30.dmg" length="7322513" type="application/octet-stream" sparkle:edSignature="14hdop271mOhq+bF9b2UthlWuVnbZWut+NsZH6m3o7l4Q41njWcOXQd7Vbvc35zt5RmZdhJZ3lKMZMSM8dLRBQ=="/>
+        </item>
+        <item>
             <title>1.0.29</title>
             <pubDate>Thu, 27 Nov 2025 09:30:00 +0100</pubDate>
             <sparkle:version>33</sparkle:version>
