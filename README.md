@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.30-blue.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.31-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
@@ -58,7 +58,15 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.30 (Actual) - 1 Dic 2025
+### 🎯 Versión 1.0.31 (Actual) - 2 Dic 2025
+**Clean Architecture y Verificación de API Keys**
+- 🏗️ **Clean Architecture**: Refactorización completa del módulo de verificación de Google API Keys
+- 🔍 **Verificación Mejorada**: Ahora muestra el proyecto que se está escaneando en tiempo real
+- 📊 **Feedback de Progreso**: Indicador visual del progreso (X/Y proyectos)
+- 🧩 **Separación de Capas**: Domain (Entities, UseCases), Data (DTOs, DataSources, Repositories), Presentation
+- Tamaño: 6.5 MB
+
+### Versión 1.0.30 - 1 Dic 2025
 **Mock Server y Security Scanner**
 - 🖥️ **Mock Server Completo**: Servidor mock integrado para pruebas de APIs
 - 🔍 **Security Scanner**: Escanea proyectos en busca de API keys y secretos expuestos
@@ -326,6 +334,6 @@ Para reportar bugs o solicitar nuevas características:
 
 **Desarrollado por RudoApps**
 
-*Última actualización: 1 de Diciembre de 2025*
+*Última actualización: 2 de Diciembre de 2025*
 
 </div>
