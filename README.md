@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Gula](https://img.shields.io/badge/Version-1.0.31-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-macOS%2015.0%2B-lightgrey.svg)
+![Gula](https://img.shields.io/badge/Version-1.0.33-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-macOS%2014.6%2B-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Signed](https://img.shields.io/badge/Signed-Developer%20ID-success.svg)
 ![Notarized](https://img.shields.io/badge/Notarized-Apple-success.svg)
@@ -58,7 +58,25 @@ Gula utiliza **Sparkle Framework** para proporcionar actualizaciones automática
 
 ## 📊 Historial de Versiones
 
-### 🎯 Versión 1.0.31 (Actual) - 2 Dic 2025
+### 🎯 Versión 1.0.33 (Actual) - 9 Dic 2025
+**Generador API con tripleA y Mejoras de UX**
+- 🔌 **Integración tripleA**: Soporte para librería tripleA en DataSource iOS con `network.load` y `network.loadAuthorized`
+- 🔐 **Detección de Autenticación**: Lee campo `security` de OpenAPI para determinar endpoints autenticados
+- 📊 **Barra de Progreso Flotante**: Nueva barra en sidebar que persiste al cambiar de pestañas
+- 🔄 **Generación en Background**: La generación de código continúa aunque cambies de vista
+- 📋 **Vista Previa de Código**: Bloques de código estilo README con botón de copiar
+- 🔧 **Fix Creación de Proyectos**: Corregido paso de parámetros al script gula
+- Tamaño: 8.0 MB
+
+### Versión 1.0.32 - 9 Dic 2025
+**Pre-commit Hooks y Scanner de Seguridad**
+- 🪝 **Pre-commit para Flutter**: Nuevo hook de pre-commit específico para proyectos Flutter
+- 🔒 **Hook Común Mejorado**: Nuevo hook común reutilizable entre proyectos
+- 🔑 **Fix Security Scanner**: Corregida la clave del escáner de seguridad
+- ☁️ **Verificación Google Cloud**: Añadida verificación de credenciales Google Cloud
+- Tamaño: 7.7 MB
+
+### Versión 1.0.31 - 4 Dic 2025
 **Clean Architecture y Verificación de API Keys**
 - 🏗️ **Clean Architecture**: Refactorización completa del módulo de verificación de Google API Keys
 - 🔍 **Verificación Mejorada**: Ahora muestra el proyecto que se está escaneando en tiempo real
@@ -334,6 +352,6 @@ Para reportar bugs o solicitar nuevas características:
 
 **Desarrollado por RudoApps**
 
-*Última actualización: 2 de Diciembre de 2025*
+*Última actualización: 9 de Diciembre de 2025*
 
 </div>
